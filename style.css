@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    background-color: rgb(165, 157, 206);
 }
 
 body{
@@ -23,4 +24,32 @@ ul{
 .header{
     display:flex;
     justify-content: space-between;
+}
+
+.top-splash{
+    display:flex;
+}
+
+.information{
+    display:flex;
+    flex-direction:column;
+}
+
+.cardset{
+    display:flex;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+}
+
+.splashimage{
+    height:300px;
+    width:auto;
+}
+
+.card-image{
+    height:150px;
+    width:150px;
 }
