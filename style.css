@@ -42,7 +42,7 @@ ul{
 .top-splash{
     margin-top:100px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items:center;
     padding:10px 250px;
     padding-bottom:75px;
@@ -92,7 +92,8 @@ ul{
 
 .cardset{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:30px;
 }
 
 .card{
