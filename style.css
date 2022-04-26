@@ -1,17 +1,18 @@
 *{
     box-sizing: border-box;
-    background-color: rgb(165, 157, 206);
+    color:aliceblue;
+    font-family: 'Roboto',sans-serif;
 }
 
 body{
+    background-color: rgb(28, 19, 83);
     min-height: 100vh;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
     margin:0;
-}
-
-.body{
+    padding:20px 250px;
+    position:relative;
 }
 
 ul{
@@ -24,32 +25,91 @@ ul{
 .header{
     display:flex;
     justify-content: space-between;
+    align-items: center;
+}
+.header div{
+    font-size:24px;
+    font-weight:bold;
+}
+.header-links{
+    gap:25px;
+}
+.header-links a{
+    color: rgb(185, 193, 199);
 }
 
 .top-splash{
+    margin-top:100px;
     display:flex;
+    justify-content: space-between;
+}
+.hero-text h2{
+    font-size:40px;
+    margin:0;
+}
+.hero-text p{
+    font-size:14px;
+    color: rgb(185, 193, 199);
+    margin:10px 0px;
+}
+.hero-text button{
+    background-color: darkcyan;
+    border:none;
+    color:white;
+    border-radius:4px;
+    padding:4px 16px;
+    font-weight:500;
 }
 
 .information{
     display:flex;
     flex-direction:column;
 }
+.information:before{
+    content:'';
+    background:rgb(255, 255, 255);
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    z-index: -1;
+}
+
+*.card p{
+    color:rgb(53, 53, 53);
+    text-align: center;
+}
+.information h2{
+    text-align:center;
+    color: black;
+}
 
 .cardset{
     display:flex;
+    justify-content: space-around;
 }
 
 .card{
     display:flex;
     flex-direction: column;
+    align-items: center;
+    width:150px;
+    margin:15px;
 }
 
 .splashimage{
-    height:300px;
-    width:auto;
+    height:275px;
 }
 
 .card-image{
     height:150px;
     width:150px;
+    border-radius:15px;
+    border:3px;
+    border-style: solid;
+    border-color:rgb(69, 69, 214);
+}
+
+a{
+    text-decoration:none;
 }
